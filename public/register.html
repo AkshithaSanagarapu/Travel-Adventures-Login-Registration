@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us | Travel Adventures</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <main class="page">
+        <section class="visual-panel">
+            <div class="logo">Travel Adventures.</div>
+
+            <div class="visual-copy">
+                <h2>Your next adventure starts here.</h2>
+                <p>
+                    Discover beautiful places, make unforgettable
+                    memories, and find inspiration for your next escape.
+                </p>
+            </div>
+
+            <div class="visual-footer">
+                Explore &nbsp;·&nbsp; Experience &nbsp;·&nbsp; Remember
+            </div>
+        </section>
+
+        <section class="form-panel">
+            <div class="form-content">
+                <div class="eyebrow">Begin your journey</div>
+                <h1>Create your account.</h1>
+                <p class="subtitle">
+                    A world of adventures awaits. Join us and
+                    start exploring.
+                </p>
+
+                <form action="/register" method="POST">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username"
+                               name="username"
+                               placeholder="Choose your username"
+                               maxlength="50"
+                               autocomplete="username" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email"
+                               name="email"
+                               placeholder="you@example.com"
+                               maxlength="100"
+                               autocomplete="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password"
+                               name="password"
+                               placeholder="Create a password"
+                               autocomplete="new-password" required>
+                    </div>
+
+                    <button class="primary-button" type="submit">
+                        Start exploring
+                    </button>
+                </form>
+
+                <p class="switch-text">
+                    Already part of the journey?
+                    <a href="/login.html">Sign in</a>
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
